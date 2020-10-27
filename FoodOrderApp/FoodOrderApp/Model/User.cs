@@ -4,7 +4,10 @@ using System.Text;
 
 namespace FoodOrderApp.Model
 {
-    class User
+    public class User
     {
+        public string Password { get; set; }
+
+        public string Username { get; set; }
     }
 }
